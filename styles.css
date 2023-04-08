@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Libre+Baskerville:ital@1&family=Outfit:wght@400;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Outfit', sans-serif;
+     font-size: 15px;
+    background-color:  hsl(212, 45%, 89%);
+    overflow-x: hidden;
+}
+.container
+{
+    width: 1440px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+}
+img
+{
+    max-width: 100%;
+}
+.box
+{
+    width: 27%;
+    background-color:hsl(0, 0%, 100%);
+    padding: 28px;
+    border-radius: 10px;
+}
+.box img
+{
+    border-radius: 10px;
+    width: 400px;
+}
+.box h1
+{
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.box p
+{
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+@media (max-width:768px) {
+.container
+{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    
+}
